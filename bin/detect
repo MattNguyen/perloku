@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -x $1/Perloku ]; then
+if [ -f $1/Perloku ]; then
   echo "Perloku"
   exit 0
 else
